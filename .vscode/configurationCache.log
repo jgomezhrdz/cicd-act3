@@ -1,0 +1,1 @@
+{"buildTargets":[".PHONY","all","build","deploy-stage","pylint","run-web","server","start-sonar-scanner","start-sonar-server","stop-sonar-server","stop-web","test-api","test-e2e","test-unit"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

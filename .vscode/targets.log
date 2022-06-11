@@ -1,0 +1,398 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jun 10 20:15:37 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk-17.0.1
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\juan_
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\juan_\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a5073b3d-fbe2-4bd0-9bc3-da05b234b6a2-sock
+# environment
+VSCODE_CWD = C:\Users\juan_\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Users\juan_\Documents\WindowsPowerShell\Modules;C:\Users\juan_\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\PowerShell
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# environment
+GOPATH = C:\Users\juan_\go
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22272_IQMERHBPEVWDZGIE
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\juan_\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LANG = C
+# defa 
+ult
+.LOADED := 
+# environment
+TMP = C:\Users\juan_\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+BRS = C:\Program Files\HP\Sure Click\servers
+# environment
+ONEDRIVE = C:\Users\juan_\OneDrive
+# makefile
+CURDIR := c:/Users/juan_/Desktop/UNIR/Cuatri_2/Integracio-Entrega_continua/Actividades/Gomez_Hernandez_Juan_Actividad3
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 22272
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+ONLINESERVICES = Online Services
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\juan_
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\php;C:\composer;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\npm;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\HashiCorp\Vagrant\bin;C:\Python310;C:\Python310\Scripts;C:\Users\juan_\anaconda3;C:\Users\juan_\anaconda3\Scripts;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\opscode\chef-workstation\bin\;C:\Users\juan_\AppData\Local\Android\Sdk\platform-tools;C:\Users\juan_\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\juan_\AppData\Local\Android\Sdk\tools\emulator;C:\Program Files\Android\gradle-7.3.2-bin\gradle-7.3.2\bin;C:\Program Files\dotnet\;C:\Program Files\Go\bin;C:\src\flutter\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\juan_\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\juan_\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\juan_\AppData\Local\Microsoft\WindowsApps;C:\Users\juan_\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\juan_\AppData\Local\GitHubDesktop\bin;C:\Users\juan_\AppData\Roaming\Composer\vendor\bin;C:\Users\juan_\AppData\Roaming\npm;C:\Users\juan_\.dotnet\tools;C:\Users\juan_\go\bin;C:\Users\juan_\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = DESKTOP-BHCARFB
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132808698031704542
+# environment
+LOGONSERVER = \\DESKTOP-BHCARFB
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = juan_
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-BHCARFB
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := build
+# default
+MAKE_VERSION := 4.3
+# environment
+PLATFORMCODE = AN
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-BHCARFB
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\juan_\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\juan_\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\59c15267660cfc4d825269ce021dacbc-1.68.0-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+BRB = C:\Program Files\HP\Sure Click\bin
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+REGIONCODE = EMEA
+# environment
+PROCESSOR_REVISION = 8c01
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+# variable set hash-table stats:
+# Load=103/1024=10%, Rehash=0, Collisions=10/131=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/juan_/Desktop/UNIR/Cuatri_2/Integracio-Entrega_continua/Actividades/Gomez_Hernandez_Juan_Actividad3, mtime 1654884937): 21 files, no impossibilities.
+
+# 21 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 20:14:16
+#  File has been updated.
+#  Successfully updated.
+
+test-api:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+	docker network create calc-test-api || true
+	docker run -d --network calc-test-api --env PYTHONPATH=/opt/calc --name apiserver --env FLASK_APP=app/api.py -p 5000:5000 -w /opt/calc calculator-app:latest flask run --host=0.0.0.0
+	docker run --network calc-test-api --name api-tests --env PYTHONPATH=/opt/calc --env BASE_URL=http://apiserver:5000/ -w /opt/calc calculator-app:latest pytest --junit-xml=results/api_result.xml -m api  || true
+	docker cp api-tests:/opt/calc/results ./
+	docker stop apiserver || true
+	docker rm --force apiserver || true
+	docker stop api-tests || true
+	docker rm --force api-tests || true
+	docker network rm calc-test-api || true
+
+server:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	docker run --rm --name apiserver --network-alias apiserver --env PYTHONPATH=/opt/calc --env FLASK_APP=app/api.py -p 5000:5000 -w /opt/calc calculator-app:latest flask run --host=0.0.0.0
+
+pylint:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 65):
+	docker run --rm --volume `pwd`:/opt/calc --env PYTHONPATH=/opt/calc -w /opt/calc calculator-app:latest pylint app/ | tee results/pylint_result.txt
+
+start-sonar-server:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 54):
+	docker network create calc-sonar || true
+	docker run -d --rm --stop-timeout 60 --network calc-sonar --name sonarqube-server -p 9000:9000 --volume `pwd`/sonar/data:/opt/sonarqube/data --volume `pwd`/sonar/logs:/opt/sonarqube/logs sonarqube:8.3.1-community
+
+test-unit:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	docker run --name unit-tests --env PYTHONPATH=/opt/calc -w /opt/calc calculator-app:latest pytest --cov --cov-report=xml:results/coverage.xml --cov-report=html:results/coverage --junit-xml=results/unit_result.xml -m unit || true
+	docker cp unit-tests:/opt/calc/results ./
+	docker rm unit-tests || true
+
+run-web:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 47):
+	docker run --rm --volume `pwd`/web:/usr/share/nginx/html  --volume `pwd`/web/constants.local.js:/usr/share/nginx/html/constants.js --name calc-web -p 80:80 nginx
+
+deploy-stage:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	docker stop apiserver || true
+	docker stop calc-web || true
+	docker run -d --rm --name apiserver --network-alias apiserver --env PYTHONPATH=/opt/calc --env FLASK_APP=app/api.py -p 5000:5000 -w /opt/calc calculator-app:latest flask run --host=0.0.0.0
+	docker run -d --rm --name calc-web -p 80:80 calc-web
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 4):
+	docker build -t calculator-app .
+	docker build -t calc-web ./web
+
+test-e2e:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	docker network create calc-test-e2e || true
+	docker stop apiserver || true
+	docker rm --force apiserver || true
+	docker stop calc-web || true
+	docker rm --force calc-web || true
+	docker stop e2e-tests || true
+	docker rm --force e2e-tests || true
+	docker run -d --network calc-test-e2e --env PYTHONPATH=/opt/calc --name apiserver --env FLASK_APP=app/api.py -p 5000:5000 -w /opt/calc calculator-app:latest flask run --host=0.0.0.0
+	docker run -d --network calc-test-e2e --name calc-web -p 80:80 calc-web
+	docker create --network calc-test-e2e --name e2e-tests cypress/included:4.9.0 --browser chrome || true
+	docker cp ./test/e2e/cypress.json e2e-tests:/cypress.json
+	docker cp ./test/e2e/cypress e2e-tests:/cypress
+	docker start -a e2e-tests || true
+	docker cp e2e-tests:/results ./  || true
+	docker rm --force apiserver  || true
+	docker rm --force calc-web || true
+	docker rm --force e2e-tests || true
+	docker network rm calc-test-e2e || true
+
+start-sonar-scanner:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 62):
+	docker run --rm --network calc-sonar -v `pwd`:/usr/src sonarsource/sonar-scanner-cli
+
+stop-web:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 50):
+	docker stop calc-web
+
+stop-sonar-server:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 58):
+	docker stop sonarqube-server
+	docker network rm calc-sonar || true
+
+.PHONY: all all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=17/1024=2%, Rehash=0, Collisions=1/29=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 37 / storage = 423 B / avg = 11 B
+# current buf: size = 8174 B / used = 423 B / count = 37 / avg = 11 B
+
+# strcache performance: lookups = 56 / hit rate = 33%
+# hash-table stats:
+# Load=37/8192=0%, Rehash=0, Collisions=0/56=0%
+# Finished Make data base on Fri Jun 10 20:15:37 2022
+
+ 
