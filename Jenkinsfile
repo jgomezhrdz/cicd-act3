@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        label "docker"
+        label "jenkins-docker"
     }
     environment {
         EMAIL_TO = 'jgomez.hrdz@gmail.com'
