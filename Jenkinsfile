@@ -40,11 +40,9 @@ pipeline{
         always { 
             junit "results/*_result.xml"
             cleanWs()
-        }
-        always {  
             mail to: 'email address',
-                subject:"FAILURE in: ${env.JOB_NAME} execution number: ${currentBuild.number}",
-                body: "Test Complete Build failed."
+                 subject:"FAILURE in: ${env.JOB_NAME} execution number: ${currentBuild.number}",
+                 body: "Test Complete Build failed."
         }
     }
 }
