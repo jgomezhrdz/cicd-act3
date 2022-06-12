@@ -42,11 +42,9 @@ pipeline{
             cleanWs()
         }
         failure {  
-            mail 
-                subject: "ERROR CI", 
-                to: "${EMAIL_TO}",
-                body: "<b>Example</b>", 
-                charset: 'UTF-8';
+            mail to: 'email address',
+                subject:"FAILURE: ${currentBuild.fullDisplayName}",
+                body: "Test Complete Build failed."
         }
     }
 }
