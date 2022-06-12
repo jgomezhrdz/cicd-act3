@@ -38,7 +38,7 @@ pipeline{
     }
     post { 
         always { 
-            junit "results/*_result.xml"
+            //junit "results/*_result.xml"
             cleanWs()
             emailext to: 'jgomez.hrdz@gmail.com',
                  subject:"FAILURE in: ${env.JOB_NAME} execution number: ${currentBuild.number}",
