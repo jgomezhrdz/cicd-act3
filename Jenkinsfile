@@ -6,7 +6,7 @@ pipeline{
         EMAIL_TO = 'jgomez.hrdz@gmail.com'
     }
     stages{
-        stage('Source') {
+        /*stage('Source') {
             steps {
                 git 'https://github.com/srayuso/unir-cicd.git'
             }
@@ -34,7 +34,7 @@ pipeline{
                 sh "make test-e2e"
                 archiveArtifacts artifacts: "results/*.xml"
             }
-        }
+        }*/
     }
     post { 
         always { 
