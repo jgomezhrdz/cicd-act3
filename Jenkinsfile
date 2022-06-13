@@ -42,18 +42,16 @@ pipeline{
     post { 
         always { 
             junit "results/*_result.xml"
-            script {
-                publishHTML (target : 
-                                    [ 
-                                        allowMissing: false,
-                                        alwaysLinkToLastBuild: true,
-                                        keepAll: true,
-                                        reportDir: 'results',
-                                        reportFiles: 'index.html',
-                                        reportName: 'My Reports',
-                                        reportTitles: 'The Report'
-                                    ])
-            }
+            publishHTML (target : 
+                                [ 
+                                    allowMissing: false,
+                                    alwaysLinkToLastBuild: true,
+                                    keepAll: true,
+                                    reportDir: 'results',
+                                    reportFiles: 'index.html',
+                                    reportName: 'My Reports',
+                                    reportTitles: 'The Report'
+                                ])
             cleanWs()
         }
         failure {
