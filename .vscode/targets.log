@@ -5,8 +5,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Fri Jun 10 20:15:37 2022
+# Make data base, printed on Mon Jun 13 19:31:35 2022
 
 # Variables
 
@@ -23,7 +24,7 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\juan_\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a5073b3d-fbe2-4bd0-9bc3-da05b234b6a2-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d3a28972-6bfc-4157-9b10-d1acb10a656e-sock
 # environment
 VSCODE_CWD = C:\Users\juan_\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -41,7 +42,7 @@ GOPATH = C:\Users\juan_\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22272_IQMERHBPEVWDZGIE
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29536_IOGUOSULLNELVTPK
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -58,8 +59,7 @@ VSCODE_LOG_STACK = false
 VSCODE_CODE_CACHE_PATH = C:\Users\juan_\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
 # environment
 LANG = C
-# defa 
-ult
+# default
 .LOADED := 
 # environment
 TMP = C:\Users\juan_\AppData\Local\Temp
@@ -98,7 +98,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 22272
+VSCODE_PID = 29536
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -226,9 +226,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/juan_/Desktop/UNIR/Cuatri_2/Integracio-Entrega_continua/Actividades/Gomez_Hernandez_Juan_Actividad3, mtime 1654884937): 21 files, no impossibilities.
+# . (key c:/Users/juan_/Desktop/UNIR/Cuatri_2/Integracio-Entrega_continua/Actividades/Gomez_Hernandez_Juan_Actividad3, mtime 1654963998): 19 files, no impossibilities.
 
-# 21 files, no impossibilities in 1 directories.
+# 19 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -387,12 +387,12 @@ stop-sonar-server:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 37 / storage = 423 B / avg = 11 B
-# current buf: size = 8174 B / used = 423 B / count = 37 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 35 / storage = 343 B / avg = 9 B
+# current buf: size = 8174 B / used = 343 B / count = 35 / avg = 9 B
 
-# strcache performance: lookups = 56 / hit rate = 33%
+# strcache performance: lookups = 54 / hit rate = 35%
 # hash-table stats:
-# Load=37/8192=0%, Rehash=0, Collisions=0/56=0%
-# Finished Make data base on Fri Jun 10 20:15:37 2022
+# Load=35/8192=0%, Rehash=0, Collisions=0/54=0%
+# Finished Make data base on Mon Jun 13 19:31:35 2022
 
  

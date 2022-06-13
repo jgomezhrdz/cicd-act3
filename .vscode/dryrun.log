@@ -1,3 +1,4 @@
+make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'c:/Users/juan_/Desktop/UNIR/Cuatri_2/Integracio-Entrega_continua/Actividades/Gomez_Hernandez_Juan_Actividad3'
 docker build -t calculator-app .
 docker build -t calc-web ./web

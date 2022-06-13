@@ -11,7 +11,7 @@ pipeline{
                 git 'https://github.com/srayuso/unir-cicd.git'
             }
         }
-        /*stage('Build') {
+        stage('Build') {
             steps {
                 echo 'Building stage!'
                 sh 'make build'
@@ -34,11 +34,11 @@ pipeline{
                 sh "make test-e2e"
                 archiveArtifacts artifacts: "results/*.xml"
             }
-        }*/
+        }
     }
     post { 
         always { 
-            //junit "results/*_result.xml"
+            junit "results/*_result.xml"
             cleanWs()
             mail to: 'jgomez.hrdz@gmail.com', subject:"FAILURE in: ${env.JOB_NAME} execution number: ${currentBuild.number}", body: "Test Complete Build failed.";
         }
