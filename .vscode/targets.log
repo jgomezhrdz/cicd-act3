@@ -5,9 +5,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Mon Jun 13 19:31:35 2022
+# Make data base, printed on Tue Jun 14 17:13:41 2022
 
 # Variables
 
@@ -24,7 +23,7 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\juan_\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d3a28972-6bfc-4157-9b10-d1acb10a656e-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4aeb7e91-8b13-4a6b-9096-14c46a5126b1-sock
 # environment
 VSCODE_CWD = C:\Users\juan_\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -42,7 +41,7 @@ GOPATH = C:\Users\juan_\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29536_IOGUOSULLNELVTPK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29088_RVMKYYAQJCAQVBMS
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -98,7 +97,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 29536
+VSCODE_PID = 29088
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -393,6 +392,6 @@ stop-sonar-server:
 # strcache performance: lookups = 54 / hit rate = 35%
 # hash-table stats:
 # Load=35/8192=0%, Rehash=0, Collisions=0/54=0%
-# Finished Make data base on Mon Jun 13 19:31:35 2022
+# Finished Make data base on Tue Jun 14 17:13:41 2022
 
  

@@ -20,22 +20,20 @@ pipeline{
         stage('Unit tests') {
             steps {
                 sh 'make test-unit'
-                archiveArtifacts artifacts: "results/**"
+                archiveArtifacts artifacts: "results/*.xml"
                 //archiveArtifacts artifacts: "results/*.html"
             }
         }
         stage('API tests') {
             steps {
                 sh "make test-api"
-                archiveArtifacts artifacts: "results/**"
-                //archiveArtifacts artifacts: "results/*.html"
+                archiveArtifacts artifacts: "results/*.xml", "results/*.html"
             }
         }
         stage("E2E tests") {
             steps {
                 sh "make test-e2e"
-                archiveArtifacts artifacts: "results/**"
-                //archiveArtifacts artifacts: "results/*.html"
+                archiveArtifacts artifacts: "results/*.xml", "results/*.html"
             }
         }
     }
