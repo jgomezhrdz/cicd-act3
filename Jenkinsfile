@@ -20,19 +20,19 @@ pipeline{
         stage('Unit tests') {
             steps {
                 sh 'make test-unit'
-                archiveArtifacts artifacts: "results/*.xml, *.html", allowEmptyArchive: true
+                archiveArtifacts artifacts: "results/*.xml, results/coverage/*.html", allowEmptyArchive: true
             }
         }
         stage('API tests') {
             steps {
                 sh "make test-api"
-                archiveArtifacts artifacts: "results/*.xml, *.html", allowEmptyArchive: true
+                archiveArtifacts artifacts: "results/*.xml, results/coverage/*.html", allowEmptyArchive: true
             }
         }
         stage("E2E tests") {
             steps {
                 sh "make test-e2e"
-                archiveArtifacts artifacts: "results/*.xml, *.html", allowEmptyArchive: true
+                archiveArtifacts artifacts: "results/*.xml, results/coverage/*.html", allowEmptyArchive: true
             }
         }
     }
@@ -43,12 +43,12 @@ pipeline{
                                     allowMissing: false,
                                     alwaysLinkToLastBuild: true,
                                     keepAll: true,
-                                    reportDir: '',
+                                    reportDir: 'results/coverage/',
                                     reportFiles: 'index.html',
                                     reportName: 'My Reports',
                                     reportTitles: 'The Report'
                                 ])
-            //cleanWs()
+            cleanWs()
         }
         failure {
             mail to: 'jgomez.hrdz@gmail.com', subject:"FAILURE in: ${env.JOB_NAME} execution number: ${currentBuild.number}", body: "Test Complete Build failed.";
