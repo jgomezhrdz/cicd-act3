@@ -20,27 +20,26 @@ pipeline{
         stage('Unit tests') {
             steps {
                 sh 'make test-unit'
-                archiveArtifacts artifacts: "results/*.xml, results/*.html", allowEmptyArchive: true
+                archiveArtifacts artifacts: "results/*.xml, **/*.html", allowEmptyArchive: true
             }
         }
         stage('API tests') {
             steps {
                 sh "make test-api"
-                archiveArtifacts artifacts: "results/*.xml, results/*.html", allowEmptyArchive: true
+                archiveArtifacts artifacts: "results/*.xml, **/*.html", allowEmptyArchive: true
             }
         }
         stage("E2E tests") {
             steps {
                 sh "make test-e2e"
-                archiveArtifacts artifacts: "results/*.xml, results/*.html", allowEmptyArchive: true
+                archiveArtifacts artifacts: "results/*.xml, **/*.html", allowEmptyArchive: true
             }
         }
     }
     post { 
         always { 
             junit "results/*_result.xml"
-            publishHTML (target : 
-                                [ 
+            publishHTML (target : [
                                     allowMissing: false,
                                     alwaysLinkToLastBuild: true,
                                     keepAll: true,
