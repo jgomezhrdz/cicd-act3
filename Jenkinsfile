@@ -20,19 +20,19 @@ pipeline{
         stage('Unit tests') {
             steps {
                 sh 'make test-unit'
-                archiveArtifacts artifacts: "results/*.xml, results/coverage/*.html", allowEmptyArchive: true
+                archiveArtifacts artifacts: "results/*.xml, results/coverage/*.html, results/coverage/*.css, , results/coverage/*.js", allowEmptyArchive: true
             }
         }
         stage('API tests') {
             steps {
                 sh "make test-api"
-                archiveArtifacts artifacts: "results/*.xml, results/coverage/*.html", allowEmptyArchive: true
+                archiveArtifacts artifacts: "results/*.xml, results/coverage/*.html, results/coverage/*.css, , results/coverage/*.js", allowEmptyArchive: true
             }
         }
         stage("E2E tests") {
             steps {
                 sh "make test-e2e"
-                archiveArtifacts artifacts: "results/*.xml, results/coverage/*.html", allowEmptyArchive: true
+                archiveArtifacts artifacts: "results/*.xml, results/coverage/*.html, results/coverage/*.css, , results/coverage/*.js", allowEmptyArchive: true
             }
         }
     }
@@ -44,7 +44,7 @@ pipeline{
                                     alwaysLinkToLastBuild: true,
                                     keepAll: true,
                                     reportDir: 'results/coverage/',
-                                    reportFiles: 'index.html',
+                                    reportFiles: '*.html',
                                     reportName: 'My Reports',
                                     reportTitles: 'The Report'
                                 ])
