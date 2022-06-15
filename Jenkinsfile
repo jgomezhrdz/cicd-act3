@@ -20,19 +20,19 @@ pipeline{
         stage('Unit tests') {
             steps {
                 sh 'make test-unit'
-                archiveArtifacts artifacts: "results/*.xml, results/coverage/*", allowEmptyArchive: true
+                archiveArtifacts artifacts: "results/*.xml, results/coverage/*.html, results/coverage/*.js, results/coverage/*.css", allowEmptyArchive: true
             }
         }
         stage('API tests') {
             steps {
                 sh "make test-api"
-                archiveArtifacts artifacts: "results/*.xml, results/coverage/*", allowEmptyArchive: true
+                archiveArtifacts artifacts: "results/*.xml, results/coverage/*.html, results/coverage/*.js, results/coverage/*.css", allowEmptyArchive: true
             }
         }
         stage("E2E tests") {
             steps {
                 sh "make test-e2e"
-                archiveArtifacts artifacts: "results/*.xml, results/coverage/*", allowEmptyArchive: true
+                archiveArtifacts artifacts: "results/*.xml, results/coverage/*.html, results/coverage/*.js, results/coverage/*.css", allowEmptyArchive: true
             }
         }
     }

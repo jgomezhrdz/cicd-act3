@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 14 17:13:41 2022
+# Make data base, printed on Wed Jun 15 18:15:01 2022
 
 # Variables
 
@@ -23,9 +23,10 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\juan_\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4aeb7e91-8b13-4a6b-9096-14c46a5126b1-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-23c99cd9-9baa-4351-b4ab-8233a01f6d3e-sock
 # environment
-VSCODE_CWD = C:\Users\juan_\AppData\Local\Programs\Microsoft VS Code
+VSCODE_CWD = C:\Users\juan_\AppData\L 
+ocal\Programs\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -41,7 +42,7 @@ GOPATH = C:\Users\juan_\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29088_RVMKYYAQJCAQVBMS
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5772_GQLQUVDROCJSRFSK
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -97,7 +98,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 29088
+VSCODE_PID = 5772
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -392,6 +393,6 @@ stop-sonar-server:
 # strcache performance: lookups = 54 / hit rate = 35%
 # hash-table stats:
 # Load=35/8192=0%, Rehash=0, Collisions=0/54=0%
-# Finished Make data base on Tue Jun 14 17:13:41 2022
+# Finished Make data base on Wed Jun 15 18:15:01 2022
 
  
