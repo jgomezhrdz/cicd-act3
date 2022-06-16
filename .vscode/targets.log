@@ -5,8 +5,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Wed Jun 15 18:15:01 2022
+# Make data base, printed on Thu Jun 16 17:54:03 2022
 
 # Variables
 
@@ -23,10 +24,9 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\juan_\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-23c99cd9-9baa-4351-b4ab-8233a01f6d3e-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-9c555388-1a82-4fbb-8e5f-eea64de18fea-sock
 # environment
-VSCODE_CWD = C:\Users\juan_\AppData\L 
-ocal\Programs\Microsoft VS Code
+VSCODE_CWD = C:\Users\juan_\AppData\Local\Programs\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -42,7 +42,7 @@ GOPATH = C:\Users\juan_\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5772_GQLQUVDROCJSRFSK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4488_ECAWXKCGYQTRDLSC
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -56,7 +56,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\juan_\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = C:\Users\juan_\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LANG = C
 # default
@@ -98,7 +98,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 5772
+VSCODE_PID = 4488
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -196,7 +196,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\juan_\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\59c15267660cfc4d825269ce021dacbc-1.68.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\59c15267660cfc4d825269ce021dacbc-1.68.1-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -393,6 +393,6 @@ stop-sonar-server:
 # strcache performance: lookups = 54 / hit rate = 35%
 # hash-table stats:
 # Load=35/8192=0%, Rehash=0, Collisions=0/54=0%
-# Finished Make data base on Wed Jun 15 18:15:01 2022
+# Finished Make data base on Thu Jun 16 17:54:03 2022
 
  
