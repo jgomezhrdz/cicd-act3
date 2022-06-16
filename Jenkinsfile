@@ -6,11 +6,11 @@ pipeline{
         EMAIL_TO = 'jgomez.hrdz@gmail.com'
     }
     stages{
-        /*stage('Source') {
+        stage('Source') {
             steps {
                 git 'https://github.com/srayuso/unir-cicd.git'
             }
-        }*/
+        }
         stage('Build') {
             steps {
                 echo 'Building stage!'
